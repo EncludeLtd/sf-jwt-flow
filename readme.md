@@ -43,4 +43,4 @@ node restcall.js
 [jwt-simple]: <https://www.npmjs.com/package/jwt-simple>
 [JWT Bearer Authentication: Salesforce and Node]: <https://blog.deadlypenguin.com/2019/03/08/jwt-bearer-auth-salesforce-node/>
 [REST API Developer Guide]: <https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm>
-[OAuth 2.0 JWT Bearer Flow for Server-to-Server Integration]: <https://help.salesforce.com/articleView?id=remoteaccess_oauth_jwt_flow.htm&type=5
+[OAuth 2.0 JWT Bearer Flow for Server-to-Server Integration]: <https://help.salesforce.com/articleView?id=remoteaccess_oauth_jwt_flow.htm&type=5>
