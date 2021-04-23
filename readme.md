@@ -39,7 +39,7 @@ node restcall.js
 
 [Nodejs]: <https://nodejs.org/en/download/>
 [NPM]: <https://www.npmjs.com/get-npm>
-[Create Your Connected App Trailhead]: <https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app>
+[Create Your Connected App Trailhead]: <https://trailhead.salesforce.com/en/content/learn/projects/build-a-connected-app-for-api-integration/create-a-connected-app>
 [jwt-simple]: <https://www.npmjs.com/package/jwt-simple>
 [JWT Bearer Authentication: Salesforce and Node]: <https://blog.deadlypenguin.com/2019/03/08/jwt-bearer-auth-salesforce-node/>
 [REST API Developer Guide]: <https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm>
