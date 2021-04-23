@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Generate claim (JWT payload)
 const ISS = process.env.SF_CONSUMER_KEY; // Consumer key of SF Connect App
-const AUD = 'https://login.salesforce.com'; // https://test.salesforce.com/ if in Sandbox
+const AUD = process.env.AUD_URL; // https://test.salesforce.com if in Sandbox else https://login.salesforce.com
 const SUB = process.env.SF_USER; // SF User with permissions to use connected app
 
 // Arbitrary expiration date; will be superceded by the org's session timeout policy, 4-24 hours of inactivity depending on configuration.
@@ -23,7 +23,7 @@ const claim = {
 }
 
 // Sign and encode JWT using the key to the certificate uploaded to the connected app
-const CERT = fs.readFileSync('./certificates/server.key', 'utf8');
+const CERT = fs.readFileSync('./certificates/key.pem', 'utf8');
 const token = jwt.encode(claim, CERT, 'RS256'); //Encryption method must be "RS256"
 
 // Salesforce's oauth2 endpoint and POST request body
